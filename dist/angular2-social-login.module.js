@@ -15,7 +15,7 @@ var Angular2SocialLoginModule = (function () {
                 var d = document, gJs, ref = d.getElementsByTagName('script')[0];
                 gJs = d.createElement('script');
                 gJs.async = true;
-                gJs.src = "//apis.google.com/js/platform.js";
+                gJs.src = "//apis.google.com/js/client:platform.js";
                 gJs.onload = function () {
                     gapi.load('auth2', function () {
                         gapi.auth2.init({
